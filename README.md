@@ -1,2 +1,3 @@
 # hello-world
-the first repository for the lyk2655 to restart himself. Stay Real, Open!
+The first repository for the lyk2655 to restart himself. Stay Real, Open!
+2017-11-12 ~ 2018-02-12 
