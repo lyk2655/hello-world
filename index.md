@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to index-back page](index-bak).
+[Link to index-back page](index-bak.md).
 
 There should be whitespace between paragraphs.
 
