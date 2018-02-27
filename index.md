@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#Ubuntu 笔记
+# Ubuntu 笔记
 
 ### sublime text3 不支持中文输入
 ```
@@ -25,3 +25,7 @@ sudo apt-get install indicator-sysmonitor
 安装完执行 indicator-sysmonitor &
 然后设置为开机启动就可以啦
 ```
+
+### Ubuntu自定义终端窗口位置
+在终端使用 `xwininfo` 命令，获取屏幕位置：
+![](https://assets-cdn.github.com/images/2018-02-27001.png)
