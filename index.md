@@ -67,3 +67,13 @@ linyk3@ThinkPad-S5:~$
 名称：`my-terminal`
 命令：`gnome-terminal --geometry 101x60--10--10`
 点击“禁用”那里，系统会提示“新建加速键”，我们按一下自己需要的快捷键就好（注意不要冲突）。到此为止，设置结束，之后随时可以按快捷键来在目标位置启动终端窗口。
+
+
+### 决小键盘数字键盘不能开机自动启动的问题
+
+安装 numlockx：
+`sudo apt-get install numlockx`
+
+然后编辑 `sudo gedit /usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf`
+
+在最后添加：`greeter-setup-script=/usr/bin/numlockx on`
