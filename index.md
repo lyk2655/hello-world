@@ -81,7 +81,16 @@ linyk3@ThinkPad-S5:~$
 ### Sping in action 4th 源码 
 `https://www.manning.com/books/spring-in-action-fourth-edition`
 
+
 ### 双系统，Ubuntu 不能打开windows数据盘
+```
+Error mounting /dev/sda4 at /media/xxx: Command-line `mount -t "ntfs" -o "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000" "/dev/sda4" "/media/linyk3/软件工程"' exited with non-zero exit status 14: The disk contains an unclean file system (0, 0).
+Metadata kept in Windows cache, refused to mount.
+Failed to mount '/dev/sda4': 不允许的操作
+The NTFS partition is in an unsafe state. Please resume and shutdown
+Windows fully (no hibernation or fast restarting), or mount the volume
+read-only with the 'ro' mount option.
+```
 原因：上一次使用win10后使电脑睡眠，没有完全关机，这次开机直接进入ubuntu系统，访问win10磁盘报错。
 解决方法：
 1 查看盘符
