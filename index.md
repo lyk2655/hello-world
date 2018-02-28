@@ -97,3 +97,6 @@ read-only with the 'ro' mount option.
 `sudo fdisk -l`
 2 修复挂载错误的分区，这里我需要修复的是 /sda5
 `sudo ntfsfix /dev/sda5`
+
+### git push时保存用户名密码
+`git config --global credential.helper store`
