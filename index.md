@@ -100,3 +100,6 @@ read-only with the 'ro' mount option.
 
 ### git push时保存用户名密码
 `git config --global credential.helper store`
+
+### 为命令设置别名
+`alias`
