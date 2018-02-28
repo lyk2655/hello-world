@@ -80,3 +80,11 @@ linyk3@ThinkPad-S5:~$
 
 ### Sping in action 4th 源码 
 `https://www.manning.com/books/spring-in-action-fourth-edition`
+
+### 双系统，Ubuntu 不能打开windows数据盘
+原因：上一次使用win10后使电脑睡眠，没有完全关机，这次开机直接进入ubuntu系统，访问win10磁盘报错。
+解决方法：
+1 查看盘符
+`sudo fdisk -l`
+2 修复挂载错误的分区，这里我需要修复的是 /sda5
+`sudo ntfsfix /dev/sda5`
