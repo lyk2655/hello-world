@@ -103,3 +103,19 @@ read-only with the 'ro' mount option.
 
 ### 为命令设置别名
 `alias`
+
+### Ubuntu 安装截图软件deepin-scrot, 类似QQ截图
+`$sudo dpkg -i deepin-scrot_2.0-0deepin_all.deb`
+如果缺少依赖，直接执行：
+`$sudo apt-get install -f`
+然后设置快捷方式启动 deepin-scrot 即可。
+执行时如果提示找不到模块gtk，
+```
+linyk3@ThinkPad-S5:~$ deepin-scrot
+Traceback (most recent call last):
+  File "./deepinScrot.py", line 24, in <module>
+    import gtk, os, sys, time
+ImportError: No module named gtk
+```
+可以执尝试安装 Python-gtk2
+`$sudo apt-get install  python-gtk2`
