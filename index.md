@@ -119,3 +119,8 @@ ImportError: No module named gtk
 ```
 可以执尝试安装 Python-gtk2
 `$sudo apt-get install  python-gtk2`
+
+### Ubuntu 关闭显示器 
+`xset dpms force off`
+重命名命令：
+`alias poff='xset dpms force off'`
