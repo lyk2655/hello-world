@@ -124,3 +124,6 @@ ImportError: No module named gtk
 `xset dpms force off`
 重命名命令：
 `alias poff='xset dpms force off'`
+
+### 文本处理链接 Double Array Trie
+https://github.com/Vonng/ac
