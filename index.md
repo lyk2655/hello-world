@@ -125,5 +125,10 @@ ImportError: No module named gtk
 重命名命令：
 `alias poff='xset dpms force off'`
 
+<<<<<<< HEAD
 
 `ssh root@47.106.81.77`
+=======
+### 文本处理链接 Double Array Trie
+https://github.com/Vonng/ac
+>>>>>>> 52a058bcb6bb3dfb39a6875fdb7b1f3a0fcc7ec8
