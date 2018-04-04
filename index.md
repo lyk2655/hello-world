@@ -124,3 +124,6 @@ ImportError: No module named gtk
 `xset dpms force off`
 重命名命令：
 `alias poff='xset dpms force off'`
+
+
+`ssh root@47.106.81.77`
