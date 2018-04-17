@@ -103,6 +103,7 @@ read-only with the 'ro' mount option.
 
 ### 为命令设置别名
 `alias`
+重启后有效： 更新`~/.bashrc`
 
 ### Ubuntu 安装截图软件deepin-scrot, 类似QQ截图
 `$sudo dpkg -i deepin-scrot_2.0-0deepin_all.deb`
@@ -125,10 +126,8 @@ ImportError: No module named gtk
 重命名命令：
 `alias poff='xset dpms force off'`
 
-<<<<<<< HEAD
 
-`ssh root@47.106.81.77`
-=======
-### 文本处理链接 Double Array Trie
-https://github.com/Vonng/ac
->>>>>>> 52a058bcb6bb3dfb39a6875fdb7b1f3a0fcc7ec8
+### 云服务器
+`111.230.148.118`
+`47.106.81.77`
+
