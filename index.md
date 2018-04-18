@@ -133,3 +133,20 @@ ImportError: No module named gtk
 
 ### Ubuntu 乱码
 `sudo apt-get install language-pack-zh-hans`
+
+
+### Ubuntu 安装 redis 
+ -`sudo tar -zxvf redis-3.2.6.tar.gz`
+ -`tar -zxvf redis-3.2.6.tar.gz`
+ -` sudo mkdir /usr/redis`
+ -`sudo mv redis-3.2.6 /usr/redis/`
+ -`cd /usr/redis/redis-3.2.6/`
+ -`sudo make`
+ -`sudo make install`
+ -`sudo mkdir /etc/redis`
+ -`sudo cp redis.conf /etc/redis/`
+ -`sudo vi /etc/redis/redis.conf` daemonize no  => daemonize  yes
+ - `cd /usr/local/bin/`
+ -`redis-server /etc/redis/redis.conf`
+ -`redis-cli -p 6379`
+ -`ping` => PONG
