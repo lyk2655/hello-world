@@ -131,3 +131,5 @@ ImportError: No module named gtk
 `111.230.148.118`
 `47.106.81.77`
 
+### Ubuntu 乱码
+`sudo apt-get install language-pack-zh-hans`
