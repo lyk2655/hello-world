@@ -150,3 +150,14 @@ ImportError: No module named gtk
  -`redis-server /etc/redis/redis.conf`
  -`redis-cli -p 6379`
  -`ping` => PONG
+
+
+### Ubuntu redis 报错 
+报错信息：MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+解决方法：
+进入redis: `./redis-cli`
+执行：config set stop-writes-on-bgsave-error no
+
+### 编译maven项目 
+`mvn clean package -Dmaven.test.skip=true`
+`java -jar app.jar`
