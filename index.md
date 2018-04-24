@@ -4,6 +4,11 @@ layout: default
 
 # Ubuntu 笔记
 
+### github 添加图片
+`![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)`
+
+![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)
+
 ### sublime text3 不支持中文输入
 ```
 sudo apt-get update && sudo apt-get upgrade
@@ -163,11 +168,24 @@ ImportError: No module named gtk
 `java -jar app.jar`
 
 
-### github 添加图片
-![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)
+
+
+
 
 
 ### Ubuntu 16.04 无法应用原保存的显示器配置 
 开机错误信息：无法应用原保存的显示器配置， 
 第 1 行第 1 个字符出错： 文档必须以一个元素开始(例如 <book>)
 解决方法：`$rm ~/.config/monitor.xml`
+
+### 卡住不动 0% [正在连接 cn.archive.ubuntu.com (2001:67c:1562::19)] 
+Ubuntu 强制使用ipv6导致 使用下面方法
+打开/etc/gai.conf(地址信息的配置文件），
+找到＃precedence ::ffff:0:0/96  100，　将"#" 去掉保存，就行了。
+
+### Ubuntu 编辑模式下，上下左右键显示字母A B C D
+卸载vi，重新安装vim
+```
+$sudo apt-get remove vim-common
+$sudo apt-get install vim
+```
