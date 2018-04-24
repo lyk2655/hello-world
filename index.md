@@ -161,3 +161,9 @@ ImportError: No module named gtk
 ### 编译maven项目 
 `mvn clean package -Dmaven.test.skip=true`
 `java -jar app.jar`
+
+
+### github 添加图片
+![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)
+
+
