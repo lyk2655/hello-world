@@ -4,6 +4,15 @@ layout: default
 
 # Ubuntu 笔记
 
+### 查看端口和进程
+```
+查看端口哪个进程占用：lsof -i:8080
+查看端口： netstat -an | grep 8080
+```
+
+### 展示最近n次提交记录
+`git log -p -n`
+
 ### github 添加图片
 `![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)`
 
