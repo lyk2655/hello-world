@@ -4,6 +4,26 @@ layout: default
 
 # Ubuntu 笔记
 
+### Mybatis错误：Parameter 'XXX' not found. Available parameters are [1, 0, param1, param2]
+```
+ <select id="queryLineByLine" parameterType="java.lang.String" resultType="Line">
+        select * from bus_line where line_id=#{line}
+ </select>
+```
+加了个条件stanum就报错
+```
+    <select id="queryLineByLineAndStanum" parameterType="java.lang.String" resultType="Line">
+        select * from bus_line where line_id=#{line} and line_stanum=#{stanum}
+    </select>
+```
+改成
+```
+    <select id="queryLineByLineAndStanum" parameterType="java.lang.String" resultType="Line">
+        select * from bus_line where line_id=#{0} and line_stanum=#{1}
+    </select>
+```
+正常查询成功！
+
 ### 查看端口和进程
 ```
 查看端口哪个进程占用：lsof -i:8080
