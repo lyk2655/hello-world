@@ -36,9 +36,10 @@ layout: default
 
 ### github 添加链接
 ```
-<a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]
+[ 百度 ](http://www.baidu.com)
 ```
-< a href="www.baidu.com" > [ 百度 ]
+
+[ 百度 ](http://www.baidu.com)
 ```
 本项目链接
 [ 显示图片 ](./docs/beautiful.md)
@@ -46,7 +47,6 @@ layout: default
 ```
 [ 显示图片 ](./docs/beautiful.md)
 
-![beautiful](https://github.com/lyk2655/hello-world/raw/master/docs/beautiful.md)
 
 ### github 添加图片
 `![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)`
