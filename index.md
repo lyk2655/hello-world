@@ -33,6 +33,14 @@ layout: default
 ### 展示最近n次提交记录
 `git log -p -n`
 
+### github 添加链接
+```
+<a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]
+```
+
+<a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]
+
+
 ### github 添加图片
 `![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)`
 
