@@ -30,6 +30,7 @@ layout: default
 查看端口： netstat -an | grep 8080
 ```
 
+
 ### 展示最近n次提交记录
 `git log -p -n`
 
@@ -40,6 +41,7 @@ layout: default
 
 <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]
 
+![beautiful](https://github.com/lyk2655/hello-world/raw/master/docs/beautiful.md)
 
 ### github 添加图片
 `![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)`
