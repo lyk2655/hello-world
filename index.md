@@ -46,7 +46,6 @@ layout: default
 ### github 添加图片
 `![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)`
 
-![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)
 
 ### sublime text3 不支持中文输入
 ```
