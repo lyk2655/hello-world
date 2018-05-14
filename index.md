@@ -41,6 +41,8 @@ layout: default
 
 <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]
 
+<a href="https://github.com/lyk2655/hello-world/raw/master/docs/beautiful.md" target="_blank"> [ 主页 ]
+
 ![beautiful](https://github.com/lyk2655/hello-world/raw/master/docs/beautiful.md)
 
 ### github 添加图片
