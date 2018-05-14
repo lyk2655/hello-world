@@ -42,6 +42,7 @@ layout: default
 ```
 本项目链接
 [ 显示图片 ](./docs/beautiful.md)
+[ markdown语法 ](./docs/markdown.md) 
 ```
 [ 显示图片 ](./docs/beautiful.md)
 
