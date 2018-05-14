@@ -38,16 +38,17 @@ layout: default
 ```
 <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]
 ```
-
-<a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank"> [ 维基百科 ]
-
-[ 主页 ](./docs/beautiful.md)
+< a href="www.baidu.com" > [ 百度 ]
+```
+本项目链接
+[ 显示图片 ](./docs/beautiful.md)
+```
+[ 显示图片 ](./docs/beautiful.md)
 
 ![beautiful](https://github.com/lyk2655/hello-world/raw/master/docs/beautiful.md)
 
 ### github 添加图片
 `![beautiful](https://github.com/lyk2655/hello-world/raw/master/img/beautiful.jpg)`
-
 
 ### sublime text3 不支持中文输入
 ```
