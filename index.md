@@ -183,20 +183,34 @@ ImportError: No module named gtk
 
 
 ### Ubuntu 安装 redis 
- -`sudo tar -zxvf redis-3.2.6.tar.gz`
- -`tar -zxvf redis-3.2.6.tar.gz`
- -` sudo mkdir /usr/redis`
- -`sudo mv redis-3.2.6 /usr/redis/`
- -`cd /usr/redis/redis-3.2.6/`
- -`sudo make`
- -`sudo make install`
- -`sudo mkdir /etc/redis`
- -`sudo cp redis.conf /etc/redis/`
- -`sudo vi /etc/redis/redis.conf` daemonize no  => daemonize  yes
+ - `sudo tar -zxvf redis-3.2.6.tar.gz`
+ - `tar -zxvf redis-3.2.6.tar.gz`
+ - ` sudo mkdir /usr/redis`
+ - `sudo mv redis-3.2.6 /usr/redis/`
+ - `cd /usr/redis/redis-3.2.6/`
+ 安装编译
+ - `sudo make`
+ - `sudo make install`
+ - `sudo mkdir /etc/redis`
+  直接运行 `redis-server` 是前端启动，终端不能关掉。
+  修改redis.conf可以后台启动redis 服务器：
+ - `sudo cp redis.conf /etc/redis/`
+ - `sudo vi /etc/redis/redis.conf` daemonize no  => daemonize  yes
  - `cd /usr/local/bin/`
- -`redis-server /etc/redis/redis.conf`
- -`redis-cli -p 6379`
- -`ping` => PONG
+ 启动:
+ - `redis-server /etc/redis/redis.conf`
+ 关闭:
+  - `redis-cli shutdown`
+ 测试联通：
+ - `redis-cli -p 6379`
+ - `ping` => PONG
+ 使用：
+ ```
+ 127.0.0.1:6379>set name linyk3
+ 127.0.0.1:6379>get name
+ 127.0.0.1:6379>del name
+ 127.0.0.1:6379>keys *
+ ```
 
 
 ### Ubuntu redis 报错 
