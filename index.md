@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+# Python 笔记
+
+### 安装 dlib
+借助anoconda 来安装 dlib，不然各种报错
+
+ conda install -c menpo dlib=18.18
+
+
+
 
 # Ubuntu 笔记
 
